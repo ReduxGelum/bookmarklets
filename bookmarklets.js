@@ -1,0 +1,1 @@
+javascript:document.onkeydown = function (e) {e.which == 78 ? document.getElementsByTagName('video')[0].playbackRate=1 :e.which == 66 ? document.getElementsByTagName('video')[0].playbackRate=2 : e.which == 86 ? document.getElementsByTagName('video')[0].playbackRate=4 : null}; console.log(1)

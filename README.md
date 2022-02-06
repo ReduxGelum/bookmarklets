@@ -1,11 +1,9 @@
 # Youtube speed bookmarklet
 
-1. add as a bookmark in browser
+1. add as a bookmark in browser `javascript:document.onkeydown = function (e) { k = e.key.toLowerCase(); r = {q:1, a:1.5, w:2, e:4}; if (k in r) { document.getElementsByTagName('video')[0].playbackRate = r[k]; } };undefined`
 1. click when youtube is open
 1. press hotkeys to speed up
-  * `n` - normal speed
-  * `b` - 2x speed
-  * `v` - 4x speed
-
-# Todo
-1. figure out what to do about console.log(1) at the end for firefox to prevent redirect
+  * `q` - normal speed
+  * `a` - 1.5x speed
+  * `w` - 2x speed
+  * `e` - 4x speed

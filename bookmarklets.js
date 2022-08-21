@@ -3,7 +3,7 @@ javascript:(function(s){
         r={q:1,a:1.75,w:2.5,s:5,e:15};
         k=e.key.toLowerCase();
         if (k in r) {
-            document.querySelector('video').playbackRate=r[k]
+            document.querySelectorAll('video').forEach(i => i.playbackRate=r[k])
         }
     }
 })();
